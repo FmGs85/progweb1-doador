@@ -1,7 +1,5 @@
 package com.senac.doador.dto;
 
-import jakarta.persistence.Column;
-
 import java.util.List;
 
 public class DoadorDTO {
@@ -9,7 +7,7 @@ public class DoadorDTO {
     private String nome;
     private String endereco;
     private Integer status;
-    List<DoacaoDTO> doacoes;
+    private List<DoacaoDTO> doacoes;
 
     public Integer getId() {
         return id;
